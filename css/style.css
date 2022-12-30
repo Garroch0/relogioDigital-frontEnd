@@ -22,7 +22,7 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, .6);
 }
 
 .relogio div{
@@ -40,10 +40,11 @@ body{
 }
 
 .relogio div:hover{
-  color: blueviolet;
+  color: #2E42FF;
+  background: #fff;
   cursor: pointer;
   transition: all 0.5s ease-out;
-  transform: scaleX(1.05);
+  transform: scaleX(1.09);
 }
 
 
@@ -54,4 +55,5 @@ body{
 
 .relogio span.tempo{
   font-size: 11px;
+
 }
